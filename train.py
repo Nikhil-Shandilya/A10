@@ -25,4 +25,27 @@ pip freeze>requirements.txt
 
 Docker build -t test-api-image
 Docker run -p 8000:8000 test-api-image
+
+
+
+find ~ -type f -name "activate"
+
+find ~ -type f -name "activate"
+
+
+/home/nick/myenv/bin/activate
+cmd: /home/nick/myenv/bin/python clean.py
+
+~/.venvs/myenv
+cmd: $HOME/.venvs/myenv/bin/python clean.py
+
+project/
+  .venv/
+  cmd: .venv/bin/python clean.py
+
+which python
+/home/nick/myenv/bin/python
+
+python -c "import sys; print(sys.executable)"
+/home/nick/myenv/bin/python
 """
